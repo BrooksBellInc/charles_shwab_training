@@ -22,6 +22,15 @@ For this activity we will be building a mini test in the Browser console. To emu
 **Hypothesis**: By bringing benefits content to above the fold and updating the hero and CTA copy, users will be more likely to quickly get the information they need and continue down the funnel. <br>
 **KPI**: Brokerage Account Signups <br>
 **Metrics**: Adobe Analytics custom click event with name 'BB_brokerage_CTA_Click' should fire when a user clicks on "Open a Brokerage Account".<br>
+**Mockups**
+Control:
+
+<img width="1675" alt="Screen Shot 2021-04-27 at 12 04 45 PM" src="https://user-images.githubusercontent.com/19861044/116274865-0a2f6580-a751-11eb-8ffd-3a0a09449275.png">
+
+Variant_A:
+
+<img width="1676" alt="Screen Shot 2021-04-27 at 12 06 36 PM" src="https://user-images.githubusercontent.com/19861044/116274882-10254680-a751-11eb-9066-0ef71f8e7cf4.png">
+
 
 **Changes to Make**:
 1) Herospace header text should be changed from: "Today, get closer to your goals." to "Get closer to your goals."
@@ -29,12 +38,12 @@ For this activity we will be building a mini test in the Browser console. To emu
 3) The "Easily trade and manage investments..." section should be moved to directly below the herospace/blue section.
 4) Use Optimizely utils to ensure you are waiting for elements to exist on the page before executing code.
 5) Clicking on the "Open a Brokerage Account..." button should fire an Adobe Analytics custom link with the name 'BB_brokerage_CTA_Click' using s.tl(). Ensure this call completes successfully by looking in the Network tab.
+6) If successful you should see a call that looks like this:
 
-Control:
-<img width="1675" alt="Screen Shot 2021-04-27 at 12 04 45 PM" src="https://user-images.githubusercontent.com/19861044/116274865-0a2f6580-a751-11eb-8ffd-3a0a09449275.png">
+<img width="1080" alt="Screen Shot 2021-04-27 at 12 26 51 PM" src="https://user-images.githubusercontent.com/19861044/116277924-f5080600-a753-11eb-95f7-476f88fd1592.png">
 
-Variant_A:
-<img width="1676" alt="Screen Shot 2021-04-27 at 12 06 36 PM" src="https://user-images.githubusercontent.com/19861044/116274882-10254680-a751-11eb-9066-0ef71f8e7cf4.png">
+
+
 
 
 
