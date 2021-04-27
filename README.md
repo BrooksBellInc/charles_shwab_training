@@ -1,6 +1,6 @@
 # Testing Dev Activity
 
-For this activity we will be building a mini test in the Browser console. To emulate the user of Optimizely, we will inject test code using the Code Injector Google Chrome plugin.
+For this activity we will be building a mini test in the Browser console. To emulate the use of Optimizely, we will inject test code using the Code Injector Google Chrome plugin.
 
 ## Getting Started
 
