@@ -21,14 +21,14 @@ For this activity we will be building a mini test in the Browser console. To emu
 **Campaign Type**: A/B Test<br>
 **Hypothesis**: By bringing benefits content to above the fold and updating the hero and CTA copy, users will be more likely to quickly get the information they need and continue down the funnel. <br>
 **KPI**: Brokerage Account Signups <br>
-**Metrics**: Adobe Analytics custom click event with name 'brokerage_CTA_Click' should fire when a user clicks on "Open a Brokerage Account".<br>
+**Metrics**: Adobe Analytics custom click event with name 'BB_brokerage_CTA_Click' should fire when a user clicks on "Open a Brokerage Account".<br>
 
 **Changes to Make**:
 1) Herospace header text should be changed from: "Today, get closer to your goals." to "Get closer to your goals."
 2) Herospace CTA button text should be changed from: "Open a Brokerage Account" to "Open a Brokerage Account Today"
 3) The "Easily trade and manage investments..." section should be moved to directly below the herospace/blue section.
 4) Use Optimizely utils to ensure you are waiting for elements to exist on the page before executing code.
-5) Clicking on the "Open a Brokerage Account..." button should fire an Adobe Analytics custom link metric using s.tl(). Ensure this call completes successfully by looking in the Network tab.
+5) Clicking on the "Open a Brokerage Account..." button should fire an Adobe Analytics custom link with the name 'BB_brokerage_CTA_Click' using s.tl(). Ensure this call completes successfully by looking in the Network tab.
 
 Control:
 <img width="1675" alt="Screen Shot 2021-04-27 at 12 04 45 PM" src="https://user-images.githubusercontent.com/19861044/116274865-0a2f6580-a751-11eb-8ffd-3a0a09449275.png">
