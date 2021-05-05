@@ -37,8 +37,8 @@ Variant_A:
 1) Herospace header text should be changed from: "Today, get closer to your goals." to "Get closer to your goals."
 2) Herospace CTA button text should be changed from: "Open a Brokerage Account" to "Open a Brokerage Account Today"
 3) The "Easily trade and manage investments..." section should be moved to directly below the herospace/blue section.
-4) Use Optimizely utils to ensure you are waiting for elements to exist on the page before executing code.
-5) Clicking on the "Open a Brokerage Account..." button should fire an Adobe Analytics custom link with the name 'BB_brokerage_CTA_Click' using s.tl(). Ensure this call completes successfully by looking in the Network tab.
+4) Use Optimizely utils to ensure you are waiting for elements to exist on the page before executing code. More information on utils can be found here: https://docs.developers.optimizely.com/web/docs/utilities
+5) Clicking on the "Open a Brokerage Account..." button should fire an Adobe Analytics custom link with the name 'BB_brokerage_CTA_Click' using s.tl(). Ensure this call completes successfully by looking in the Network tab. More information on s.tl() can be found here: https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/tl-method.html?lang=en
 6) If successful you should see a call that looks like this:
 
 <img width="1080" alt="Screen Shot 2021-04-27 at 12 26 51 PM" src="https://user-images.githubusercontent.com/19861044/116277924-f5080600-a753-11eb-95f7-476f88fd1592.png">
