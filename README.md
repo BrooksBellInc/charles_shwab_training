@@ -43,4 +43,9 @@ Variant_A:
 
 <img width="1080" alt="Screen Shot 2021-04-27 at 12 26 51 PM" src="https://user-images.githubusercontent.com/19861044/116277924-f5080600-a753-11eb-95f7-476f88fd1592.png">
 
+**Documentation:**
+
+[Adobe Analytics tl Call](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/tl-method.html?lang=en#vars)
+[Optimizely Utils](https://docs.developers.optimizely.com/web/docs/utilities)
+
 
