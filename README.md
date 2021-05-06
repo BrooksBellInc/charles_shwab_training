@@ -16,11 +16,16 @@ For this activity we will be building a mini test in the Browser console. To emu
 8) If using a code editor, paste your code into the JavaScript tab in Code Injector and press save. 
 9) Each time you save the code, reload the page to trigger the injection of the code. 
 
+## Documentation:
+
+[Adobe Analytics tl Call](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/tl-method.html?lang=en#vars) <br>
+[Optimizely Utils](https://docs.developers.optimizely.com/web/docs/utilities) <br>
+
 ## Campaign Information
 
 **Campaign Name**: Brokerage Page Test 1 <br>
 **Campaign Type**: A/B Test<br>
-**Hypothesis**: By bringing benefits content to above the fold and updating the hero and CTA copy, users will be more likely to quickly get the information they need and continue down the funnel. <br>
+**Hypothesis**: By bringing benefits content to above the fold and updating the hero and CTA copy, users will be more likely to quickly get the information they need and click the CTA. <br>
 **KPI**: Brokerage Account Signups <br>
 **Metrics**: Adobe Analytics custom click event with name 'BB_brokerage_CTA_Click' should fire when a user clicks on "Open a Brokerage Account".<br>
 **Mockups**
@@ -43,9 +48,5 @@ Variant_A:
 
 <img width="1080" alt="Screen Shot 2021-04-27 at 12 26 51 PM" src="https://user-images.githubusercontent.com/19861044/116277924-f5080600-a753-11eb-95f7-476f88fd1592.png">
 
-**Documentation:**
-
-[Adobe Analytics tl Call](https://experienceleague.adobe.com/docs/analytics/implementation/vars/functions/tl-method.html?lang=en#vars)
-[Optimizely Utils](https://docs.developers.optimizely.com/web/docs/utilities)
 
 
