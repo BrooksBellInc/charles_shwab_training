@@ -10,11 +10,11 @@ For this activity we will be building a mini test in the Browser console. To emu
 4) Open the Code Injector plugin. And select "Add rule"
 <img width="843" alt="Screen Shot 2021-04-27 at 9 43 51 AM" src="https://user-images.githubusercontent.com/19861044/116263808-b1a79a80-a747-11eb-94c5-afb0536a9f86.png">
 5) Paste the Brokerage page URL into the URL matching bar then deselect the "On Page Load" box. This will ensure that your code does not have to wait for page load to complete before executing.
-<img width="797" alt="Screen Shot 2021-04-27 at 9 44 15 AM" src="https://user-images.githubusercontent.com/19861044/116263788-ac4a5000-a747-11eb-8505-27d9dad2cbe5.png">
-6) Open up the starterFile.js file in this repo. You'll notice a function called runPoll included. Because we are executing code from the console, we need to wait for the Optimizely util functions to exist on the window before we can use them in our code. The runPoll does just that. When building a test in Optimizely, you will not need to poll for the util functions. For this activity do not remove the runPoll code. All your variant code should go within executeTest.
-7) Reference the Campaign Info section below for test information. You can work on your code directly in the Plugin or in a code editor of your choice.
-8) If using a code editor, paste your code into the JavaScript tab in Code Injector and press save. 
-9) Each time you save the code, reload the page to trigger the injection of the code. 
+<img width="797" alt="Screen Shot 2021-04-27 at 9 44 15 AM" src="https://user-images.githubusercontent.com/19861044/116263788-ac4a5000-a747-11eb-8505-27d9dad2cbe5.png"> <br />
+6) Open up the starterFile.js file in this repo. You'll notice a function called runPoll included. Because we are executing code from the console, we need to wait for the Optimizely util functions to exist on the window before we can use them in our code. The runPoll does just that. When building a test in Optimizely, you will not need to poll for the util functions. For this activity do not remove the runPoll code. All your variant code should go within executeTest. <br />
+7) Reference the Campaign Info section below for test information. You can work on your code directly in the Plugin or in a code editor of your choice. <br />
+8) If using a code editor, paste your code into the JavaScript tab in Code Injector and press save. <br />
+9) Each time you save the code, reload the page to trigger the injection of the code. <br />
 
 ## Documentation:
 
